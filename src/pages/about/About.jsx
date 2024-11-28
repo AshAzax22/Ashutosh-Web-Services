@@ -1,7 +1,7 @@
 import styles from "./about.module.css";
 import Arrow from "../../assets/images/arrow_white.svg";
 import Mypic from "../../assets/images/my_pic.jpg";
-import Medal from "../../assets/images/medal_Icon.svg";
+import Medal from "../../assets/images/medal_icon.svg";
 import Achievement from "../../assets/images/achievement_Icon.svg";
 import Happy from "../../assets/images/happy_Icon.svg";
 
