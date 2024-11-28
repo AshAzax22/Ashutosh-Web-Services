@@ -1,0 +1,53 @@
+.testimonialsContianer {
+  background-color: #fecf2c;
+  height: fit-content;
+  width: 100vw;
+  z-index: 1;
+  position: relative;
+  padding: 0 20em 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clientFeedback {
+  width: 60%;
+}
+
+.testimonialsTextSection {
+  text-align: end;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 4em;
+}
+
+.testimonialsTextSection .heading {
+  font-size: 6em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: #4741a6;
+  text-underline-offset: 0.3em;
+  text-decoration-thickness: 0.2em;
+  line-height: 2;
+}
+
+.testimonialsTextSection .subHeading {
+  font-family: "Bebas Neue", sans-serif;
+  color: #4741a6;
+  font-size: 12em;
+  letter-spacing: 1px;
+  line-height: 0.8;
+}
+
+.testimonialsTextSection .description {
+  font-family: "Roboto", sans-serif;
+  font-size: 4.5em;
+  line-height: 1.5;
+}
+
+.testimonialsTextSection .illustration{
+    width: 74em;
+    margin: auto;
+}

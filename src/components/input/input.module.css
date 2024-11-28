@@ -1,0 +1,21 @@
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer label{
+    font-size: 4em;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0.3em;
+    width: 100%;
+}
+
+.inputContainer input{
+    width: 100%;
+    font-size: 4em;
+    font-family: "Roboto", sans-serif;
+    padding: 1em;
+    border: 2px solid #C2C2C2;
+    border-radius: 0.5em;
+    outline: none;
+}

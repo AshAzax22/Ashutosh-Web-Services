@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.aboutContainer {
+  background-color: #4741a6;
+  height: fit-content;
+  width: 100vw;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  padding: 16em 20em;
+  gap: 11em;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutSection {
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+}
+
+.aboutSection .content {
+  gap: 4em;
+  width: 65%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.aboutSection .content .heading {
+  font-size: 6em;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+  text-decoration-thickness: 0.2em;
+  text-decoration-color: #fecf2c;
+  color: #ffffff;
+}
+
+.aboutSection .content .subHeading {
+  font-size: 12em;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+  color: #fecf2c;
+}
+
+.aboutSection .content .introduction {
+  font-size: 4.5em;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+
+.aboutSection .content .introduction span {
+  font-size: 1em;
+  color: #fecf2c;
+}
+
+.aboutSection .content .funFact {
+  font-size: 4.5em;
+  font-family: "Roboto", sans-serif;
+  background-color: #fecf2c;
+  padding: 1em;
+  font-weight: 600;
+}
+
+.aboutSection .content .skills {
+  background-color: #ffffff;
+  padding: 4em;
+  font-family: "Roboto", sans-serif;
+}
+
+.aboutSection .content .skills .skillHeading {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin-bottom: 0.8em;
+}
+
+.aboutSection .content .skills .list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4em;
+}
+
+.aboutSection .content .skills .list p {
+  font-size: 4.5em;
+  padding: 0.6em 1.6em;
+  border-radius: 4em;
+  background-color: #fecf2c;
+}
+
+.aboutSection .content .skills .list p:last-child{
+  background-color: #4741a6;
+  color: #ffffff;
+}
+
+.aboutSection .personalImage {
+  background-color: #ffffff;
+  position: relative;
+  width: 100em;
+  padding: 2em;
+  border-radius: 4.5em;
+}
+
+.aboutSection .personalImage .mypic {
+  width: 100%;
+  border-radius: 3.5em;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aboutSection .personalImage p{
+  position: absolute;
+  font-size: 3.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  padding: 0.8em 1em;
+  border-radius: 4em;
+  background-color: white;
+  bottom: 1em;
+  left: 1em;
+}
+
+.aboutSection .personalImage .arrow{
+  position: absolute;
+  bottom: 3em;
+  right: 4em;
+  padding: 2.7em;
+  width: 10em;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.aboutSection .personalImage .arrow:hover{
+  transform: rotate(0);
+}
+
+.aboutContainer .stats {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.aboutContainer .stats .stat {
+  display: flex;
+  margin-bottom: 4em;
+  gap: 4em;
+  font-family: "Roboto", sans-serif;
+}
+
+.aboutContainer .stats .stat img {
+  width: 15em;
+  height: 15em;
+}
+
+.aboutContainer .stats .stat .rating {
+  color: #fecf2c;
+  font-size: 8em;
+}
+
+.aboutContainer .stats .stat .title {
+  color: #ffffff;
+  font-size: 4.5em;
+}

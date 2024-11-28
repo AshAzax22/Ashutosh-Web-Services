@@ -1,0 +1,124 @@
+.contactContainer {
+  position: relative;
+  height: fit-content;
+  padding: 16em 20em 0 20em;
+  background: linear-gradient(#fecf2c 70%, #4741a6 30%);
+  display: flex;
+  justify-content: center;
+}
+
+.contactSection {
+  width: fit-content;
+  background-color: white;
+  border-radius: 2em;
+  padding: 8em 16em;
+  display: flex;
+  gap: 8em;
+}
+
+.contactSection .textSection {
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+  width: 50%;
+}
+
+.contactSection .heading {
+  font-size: 6em;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 0.2em;
+  text-decoration-color: #fecf2c;
+  line-height: 2;
+  text-underline-offset: 0.3em;
+  font-family: "Roboto", sans-serif;
+}
+
+.contactSection .subHeading {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 12em;
+  color: #4741a6;
+  letter-spacing: 1px;
+}
+
+.contactSection .description {
+  font-family: "Roboto", sans-serif;
+  font-size: 4.5em;
+  line-height: 1.5;
+}
+
+.contactSection .beatingHeart {
+  margin: 0 auto;
+  border: none;
+  width: 56em;
+  height: 56em;
+}
+
+.contactSection .formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 4em;
+}
+
+.contactSection .formContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+}
+
+.contactSection .formContainer form p {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.5em;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.contactSection .formContainer form button {
+  font-family: "Roboto", sans-serif;
+  font-size: 5em;
+  font-weight: 700;
+  background-color: #fecf2c;
+  color: #4741a6;
+  border: none;
+  padding: 0.5em;
+  border-radius: 0.2em;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.contactSection .separator {
+  position: relative;
+  margin: 2em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactSection .separator hr {
+  flex-grow: 1;
+  border: none;
+  border: 0.3em solid #c2c2c2;
+}
+
+.contactSection .separator p {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-size: 4.5em;
+  color: #c2c2c2;
+  background-color: white;
+  padding: 0 1em;
+}
+
+.contactSection .socialMedia {
+  display: flex;
+  justify-content: center;
+  gap: 4em;
+}
+
+.contactSection .socialMedia img{
+    width: 12em;
+}

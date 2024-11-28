@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 4px;
+  user-select: none;
+}
+
+body{
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face{
+  font-family: "Regular-Brush";
+  src: url("./assets/fonts/regular_brush/Regular_Brush.otf") format("opentype");
+}

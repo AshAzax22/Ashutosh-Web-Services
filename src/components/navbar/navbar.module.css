@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.navContainer {
+  font-family: "Roboto", sans-serif;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background-color: #FECF2C;
+  gap: 8em;
+  padding: 4em;
+  z-index: 10;
+}
+
+.navContainer .navLink {
+  font-size: 4em;
+  color: white;
+  transition: color 0.5s ease;
+  cursor: pointer;
+}
+
+.navContainer .navLink:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #4741a6;
+  transition: width 0.3s ease-in-out;
+}
+
+.navContainer .navLink:hover:after, .navContainer .navLink.active:after{
+  width: 100%;
+}
+
+.navContainer .navLink.active {
+  color: black;
+}
